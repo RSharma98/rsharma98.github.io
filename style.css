@@ -1,0 +1,33 @@
+.center{
+    text-align: center;
+}
+
+body{
+    background-color: slategray;zz
+}
+
+h1{
+    font-family: Arvo;
+    font-size: 50px;
+    line-height: 5%;
+}
+
+h2{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+h3{
+    font-family: Arvo;
+    font-size: 20px;
+    line-height: 15%;
+}
+
+p{
+    font-family: Arvo;
+    text-align: justify;
+    color: aliceblue;
+    font-size: 18px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
