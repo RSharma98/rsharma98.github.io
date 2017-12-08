@@ -1,33 +1,50 @@
-.center{
-    text-align: center;
+html{
+    font-family: "Calibri Light";
 }
 
 body{
-    background-color: slategray;
+    background-color: ghostwhite;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 h1{
-    font-family: Arvo;
-    font-size: 50px;
-    line-height: 5%;
-}
-
-h2{
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-h3{
-    font-family: Arvo;
-    font-size: 20px;
-    line-height: 15%;
+    text-align: center;
 }
 
 p{
-    font-family: Arvo;
-    text-align: justify;
-    color: aliceblue;
-    font-size: 18px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-top: 0%;
 }
+
+.navBar{
+    list-style-type: none;
+    overflow: hidden;
+    float: left;
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.grid_img{
+    float:left;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.image_wrapper{
+    text-align: center;
+    width: 100%;
+}
+
+.image{
+    display: inline-block;
+    padding: 10px;
+    border-style: solid;
+    border: 5px black;
+}
+
