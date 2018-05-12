@@ -1,75 +1,62 @@
 html{
-    background-color: ghostwhite;
-    font-family: 'Lato', 'Calibri';
-}
+    font-family: 'Roboto', 'Calibri';
 
-header{
-    border-bottom: 2px solid black;
-}
-
-header h1, h2{
-    text-transform: uppercase;
-    line-height: 20px;
-    text-align: center;
+    /*This code disables text selection on the website, links can still be clicked*/
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
 }
 
 body{
-    padding-left: 10%;
-    padding-right: 10%;
-    line-height: 18px;
-    text-align: justify;
+    background-color: rgb(25, 25, 25);
+    text-align: center;
+    color: white;
 }
 
-body p{
-    padding-bottom: 10px;
+h1{
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+h2{
     font-size: 20px;
     line-height: 20px;
+    margin: 0;
+    padding-bottom: 5px;
 }
 
-body a{
-    color: maroon;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.images{
+p{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgba(255, 255, 255, 0.25);
+    font-size: 16px;
+    line-height: 0;
     text-align: center;
+    position: absolute;
+    bottom: 0;
 }
 
-img{
-    width: 18vw;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 20px;
+a{
+    text-decoration: none;
+    color: rgb(200, 25, 25)
 }
 
-footer{
-    border-top: 2px solid black;
+a:hover{
+    color: white;
 }
 
-footer img{
-    margin-top: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50px;
-}
-
-
-
-@media screen and (max-width: 600px){
-    body{
-        padding-left: 2%;
-        padding-right: 2%;
-    }
-
-    body h1{
-        text-align: center;
-    }
-
-    img{
-        width: 95%;
-        text-align: center;
-        
-    }
+.centred{
+    text-transform: uppercase;
+    position: absolute;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
 }
