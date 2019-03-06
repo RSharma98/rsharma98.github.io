@@ -1,62 +1,106 @@
-html{
-    font-family: 'Roboto', 'Calibri';
-
-    /*This code disables text selection on the website, links can still be clicked*/
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-    -khtml-user-select: none; /* Konqueror HTML */
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
-    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
-}
-
-body{
+html, body{
     background-color: rgb(25, 25, 25);
-    text-align: center;
     color: white;
-}
-
-h1{
-    font-size: 40px;
-    line-height: 40px;
-    margin: 0;
-    padding-bottom: 5px;
-}
-
-h2{
-    font-size: 20px;
-    line-height: 20px;
-    margin: 0;
-    padding-bottom: 5px;
-}
-
-p{
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    color: rgba(255, 255, 255, 0.25);
-    font-size: 16px;
-    line-height: 0;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#sidebar #header{
+    background-color: rgb(90,180,180);
+}
+
+#sidebar{
+    width: 20%;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    background-color: rgb(80,160,160); 
+}
+
+#sidebar h1{
+    font-size: 24px;
+    margin: 0;
+    padding-top: 5px;
+}
+
+#sidebar h2{
+    font-size: 16px;
+    margin: 2px;
+    padding-bottom: 5px;
+}
+
+#sidebar #social{
+    width: 100%;
+    height: 50px;
     position: absolute;
     bottom: 0;
+    background-color: rgb(90,180,180);
+}
+
+#sidebar #social img{
+    padding: 10px 5px;
+    height: 30px;
+}
+
+#sidebar button{
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(90,180,180);
+    margin: 1px 0;
+    border: none;
+}
+
+#sidebar button:hover{
+    background-color: rgb(80,160,160); 
+}
+
+button{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 a{
     text-decoration: none;
-    color: rgb(200, 25, 25)
+    color: rgb(80,160,160); 
 }
 
 a:hover{
-    color: white;
+    color: rgb(90,180,180);
 }
 
-.centred{
-    text-transform: uppercase;
-    position: absolute;
-    width: 90%;
+#main{
+    padding-left: 20%;
+    width: 70%;
     margin-left: 5%;
-    margin-right: 5%;
-    top: 50%;
-    transform: translateY(-50%);
+    position: absolute;
+    text-align: left;
 }
+
+#main h1{
+    text-align: center;
+    margin: 5px 0px;
+}
+
+#main h3{
+    color: rgb(200, 200, 200);
+    margin: 0;
+    font-weight: lighter;
+    font-size: 16px;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+#main h2{
+    margin: 0;
+}
+
+#main p{
+    margin: 0;
+    padding: 5px 0;
+}
+
