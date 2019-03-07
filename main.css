@@ -9,7 +9,10 @@ html, body{
     margin: 0;
 }
 
-#sidebar #header{
+#header{
+    width: 100%;
+    position: absolute;
+    top: 0;
     background-color: rgb(90,180,180);
 }
 
@@ -21,48 +24,29 @@ html, body{
     background-color: rgb(80,160,160); 
 }
 
-#sidebar h1{
+#header h1{
     font-size: 24px;
     margin: 0;
     padding-top: 5px;
 }
 
-#sidebar h2{
+#header h2{
     font-size: 16px;
     margin: 2px;
     padding-bottom: 5px;
 }
 
-#sidebar #social{
-    width: 100%;
+#footer{
     height: 50px;
-    position: absolute;
+    border-top-right-radius: 10px;
+    position: fixed;
     bottom: 0;
     background-color: rgb(90,180,180);
 }
 
-#sidebar #social img{
+#footer img{
     padding: 10px 5px;
     height: 30px;
-}
-
-#sidebar button{
-    display: block;
-    width: 100%;
-    height: 50px;
-    background-color: rgb(90,180,180);
-    margin: 1px 0;
-    border: none;
-}
-
-#sidebar button:hover{
-    background-color: rgb(80,160,160); 
-}
-
-button{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
 }
 
 a{
@@ -75,9 +59,8 @@ a:hover{
 }
 
 #main{
-    padding-left: 20%;
     width: 70%;
-    margin-left: 5%;
+    margin: 60px 15%;
     position: absolute;
     text-align: left;
 }
