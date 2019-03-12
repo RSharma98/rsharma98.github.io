@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rahul Sharma - Pong360</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="Pong360/Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Pong360/Build/Circle Pong.json");
+    </script>
+  </head>
+  <body>
+      <div id="header">
+          <h1>RAHUL SHARMA</h1>
+          <h2>GAMES DEVELOPER</h2>
+      </div>
+      <div id="main">
+          <h1>Pong360</h1>
+          <p>Pong360 is a simple game I built in a short time using the Unity Engine, the initial game was built in under a day, however, some edits were made later to make the game slightly more fun and get it working as a WebGL build. The concept of the game involves rotating a paddle around the centre to try and hit the ball continuously to build up a high-score. The game is playable below (only on desktops) and the source code is available on my <a href="https://github.com/RSharma98/Circle-Pong">Github</a>.</p>
+          <div class="centred">
+            <div id="gameContainer" style="width: 700px; height: 700px;"></div>
+          </div>
+      </div>
+      <div id="footer">
+          <a href="https://twitter.com/Rahulio2D" target="#blank"><img src="images/Twitter.png" alt="Twitter"></a>
+          <a href="https://github.com/RSharma98" target="#blank"><img src="images/Github.png" alt="Github"></a>
+      </div>
+  </body>
+</html>
