@@ -90,3 +90,8 @@ a:hover{
     padding: 0;
 }
 
+#main .centred{
+    width: 100%;
+    margin-left: 150px;
+}
+
