@@ -132,6 +132,27 @@ html, body{
     float: right;
 }
 
+#gallery{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+#gallery .picture{
+    width: 384px;
+    height: 216px;
+    float: left;
+    margin: 8px;
+    background-size: cover;
+    background-position: center;
+    transition-duration: 0.2s;
+}
+
+#gallery .picture:hover{
+    transform: scale(1.1);
+}
+
 a{
     color: white;
     text-decoration: none;

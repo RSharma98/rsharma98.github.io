@@ -1,14 +1,16 @@
 ---
-name: Running Against Time
+title: Demon Debug
 release_date: 31/10/2019
-genres: 2D Platformer
+genres: 2D Action Platformer
 game_engine: Unity and C#
-dev_team: Independent
+dev_team: Forgotten Pixel
 source_code: 
 platforms: PC and Mac
 images: 
-    - /images/demon_debug/DD_1.png
-    - /images/social/Github.png
+    - /images/games/demon_debug/DD_2.png
+    - /images/games/demon_debug/DD_1.png
+    - /images/games/demon_debug/DD_3.png
+    - /images/games/demon_debug/DD_4.png
 layout: default
 ---
 Demon Debug is a 2D Platformer I've been making using the Unity Engine and in collaboration with other professionals in the industry. On the game, my work has primarily involved programming, game design and team management. The game is not currently available, but an Alpha build will be released very soon!

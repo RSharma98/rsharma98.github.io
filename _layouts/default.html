@@ -20,6 +20,13 @@
                 <p><span>Source Code: </span>Unavailable</p>
             {% endif %}
         </div>
+        <div id="gallery">
+            {% for image in page.images %}
+                <a href="{{ image }}">
+                    <div class="picture" style="background-image: url({{image}})"></div>
+                </a>
+            {% endfor %}
+        </div>
     </div>
 </div>
 {% include footer.html %}
