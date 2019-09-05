@@ -1,6 +1,6 @@
 html, body{
     width: 100%;
-    min-height: 100%;
+    height: 100%;
     background-color: rgb(20, 20, 20);
     color: white;
     padding: 0;
@@ -23,7 +23,7 @@ html, body{
 }
 
 #header{
-    position: relative;
+    position: absolute;
     top: 0;
     text-align: center;
 }
@@ -31,11 +31,17 @@ html, body{
 #header img{
     padding-top: 5px;
     height: 50px;
+    transition-duration: 0.2s;
+}
+
+#header img:hover{
+    transform: scale(0.95);
 }
 
 #footer{
     position: absolute;
-    bottom: 0;
+    margin-top: -60px;
+    clear: both;
 }
 
 #footer p{
@@ -51,12 +57,24 @@ html, body{
     float: right;
     margin-top: 15px;
     margin-left: 10px;
+    transition-duration: 0.2s;
+}
+
+#footer img:hover{
+    transform: scale(0.9);
+    transform: rotate(-20deg);
 }
 
 #main{
+    min-height: 100%;
     width: 100%;
     margin: 0;
-    padding: 10px 0;
+}
+
+#main .content{
+    overflow: auto;
+    padding-top: 65px;
+    padding-bottom: 60px;
 }
 
 #main p{
@@ -76,13 +94,13 @@ html, body{
     float: left;
     margin: 10px 12px;
     background-color: white;
-    background-size: 576px 324px;
+    background-size: cover;
     background-position: center;
     transition-duration: 0.2s;
 }
 
 .project:hover{
-    background-size: 608px 342px;
+    transform: scale(0.95);
 }
 
 .project-overlay{
@@ -94,7 +112,7 @@ html, body{
 
 .project-overlay:hover{
     display: block;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 150, 200, 0.2);
 }
 
 .content{
@@ -150,7 +168,7 @@ html, body{
 }
 
 #gallery .picture:hover{
-    transform: scale(1.1);
+    transform: scale(0.95);
 }
 
 a{
