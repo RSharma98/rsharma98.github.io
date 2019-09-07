@@ -3,7 +3,7 @@ title: Demon Debug
 release_date: 31/10/2019
 genres: 2D Action Platformer
 game_engine: Unity and C#
-dev_team: Forgotten Pixel
+dev_team: Rahul and Friends
 source_code: 
 platforms: PC and Mac
 images: 
@@ -13,6 +13,6 @@ images:
     - /images/games/demon_debug/DD_4.png
 layout: default
 ---
-Demon Debug is a 2D Platformer I've been making using the Unity Engine and in collaboration with other professionals in the industry. On the game, my work has primarily involved programming, game design and team management. The game is not currently available, but an Alpha build will be released very soon!
+Demon Debug is a 2D Action Platformer I've been working on at with other professionals in the industry. This is the first large-scale project I've worked on with a team and my roles have involved programming, game design, and team/project management. Due to it being such a large scale project and one of the first games most of the team has worked on we decided not to work towards a full version of the game, however, we are commited towards releasing an Alpha build of the game containing one whole world of the game - which should release in mid-October.
 <br><br>
-The story of Demon Debug revolves around 'The Programmer', who has created a software which could change the world and improve the lives of millions. Satan cannot tolerate this and decides to kidnap your programming team and steal your software just as it's about to launch. It's now up to you to step into Hell, save your team, recover your software, and show Satan who’s boss! 
+In Demon Debug you play as The Programmer, an individual who has designed a software that is capable of revolutionising industries and improving millions of lives. Satan cannot tolerate such happiness in the world and therefore decides to steal your software and kidnap your team to prevent the software from launching. It is up to you to step into Hell and recover your software, save your team, and overcome challenging obstacles and level designs to show Satan who's boss!

@@ -12,8 +12,8 @@ images:
     - /images/games/dont_touch_the_spikes/DTTS_3.jpg
 layout: default
 ---
-Don't Touch The Spikes is a simple game I made as part of a coding bootcamp at the beginning of my university course. It is one of the first games I ever made and it was made using Processing in just a few days.
+Don't Touch The Spikes (originally called 'Avoid The Spikes') is a simple game I made as part of a two-week coding bootcamp at the beginning of my university course. The game was developed in just three days and showcased in front of students and professors and it was one of my first experiences with programming an actual game.
 <br><br>
-The game involves the player controlling a simple character that automatically moves left/right and flips directions after hitting a wall. Each wall, however, contains a number of spikes that are randomly positioned each time and the player must make the character jump to avoid these spikes.
+In the game the player controls a little ball that automatically moves horizontally by switching directions after hitting a wall. The player can jump or let the ball fall naturally, however, the challenge of the game is to avoid hitting the spikes which are randomly positioned on the wall and avoid the ball from going too high or too low.
 <br><br>
-The project's source code is available on my Github, where the code can be downloaded and run through the processing editor. 
+The game is not officially released, but I hope to one day port this game to another engine to develop a mobile build of the game. In the meantime, the game's source code can be downloaded from my Github profile and run in Processing.
