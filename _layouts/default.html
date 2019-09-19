@@ -9,7 +9,11 @@
         </div>
         <div id="summary">
             <h2>Summary</h2>
-            <p><span>Release Date: </span>{{ page.release_date }}</p>
+            {% if page.release_date != null %}
+                <p><span>Release Date: </span>{{ page.release_date }}</p>
+            {% else %}
+                <p><span>Release Date: </span>Unknown</p>
+            {% endif %}
             <p><span>Platform(s): </span>{{ page.platforms }}</p>
             <p><span>Genre(s): </span>{{ page.genres }}</p>
             <p><span>Engine: </span>{{ page.game_engine }}</p>
