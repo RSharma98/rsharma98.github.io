@@ -23,6 +23,11 @@
             {% else %}
                 <p><span>Source Code: </span>Unavailable</p>
             {% endif %}
+            {% if page.download != null %}
+                <p><span>Download: </span><a href="{{ page.download }}" target="#blank">Available</a></p>
+            {% else %}
+                <p><span>Download: </span>Unavailable</p>
+            {% endif %}
         </div>
         <div id="gallery">
             {% for image in page.images %}
