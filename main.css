@@ -175,6 +175,21 @@ a{
     text-decoration: none;
 }
 
+.video-overlay{
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(images/social/YouTube_Overlay.png);
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition-duration: 0.2s;
+}
+
+#gallery .picture:hover .video-overlay{
+    background-color: red;
+}
+
 @media only screen and (max-width: 1200px) {
     .content{
         width: 1000px;

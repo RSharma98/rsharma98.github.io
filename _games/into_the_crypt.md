@@ -11,6 +11,8 @@ images:
     - /images/games/into_the_crypt/Empty_Level.png
     - /images/games/into_the_crypt/Main_Menu.png
     - /images/games/into_the_crypt/Skeleton_AI.gif
+videos:
+    - https://youtu.be/jHPvtC61ZAE
 layout: default
 ---
 Into The Crypt is a procedurally generated 2D Platformer I developed for my individual final year project at University. The game was fully designed and programmed by me, however, assets (such as art and audio) were obtained from internet sources and some guidance was provided throughout the project by my project supervisor. Although this game was submitted for my final year project, my hope is to further develop the procedural generation system and open source it to allow it to be used by other developers without the need to invest resources into developing the system from scratch.

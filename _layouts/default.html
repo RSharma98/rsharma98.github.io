@@ -30,6 +30,14 @@
             {% endif %}
         </div>
         <div id="gallery">
+            {% for video in page.videos %}
+                <a href="{{ video }}" target="#blank">
+                    <div class="picture" style="background-image: url({{page.images[0]}})">
+                        <div class="video-overlay"></div>
+                    </div>
+                </a>
+            {% endfor %}
+
             {% for image in page.images %}
                 <a href="{{ image }}">
                     <div class="picture" style="background-image: url({{image}})"></div>

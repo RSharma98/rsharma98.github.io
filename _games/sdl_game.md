@@ -4,7 +4,7 @@ release_date:
 genres: Puzzle
 game_engine: C++ and SDL
 dev_team: Independent
-source_code: 
+source_code: https://github.com/RSharma98/SDL_Game
 platforms: PC
 images: 
     - /images/games/sdl_game/SDL_Game1.png
