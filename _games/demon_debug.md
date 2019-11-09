@@ -1,6 +1,6 @@
 ---
 title: Demon Debug
-release_date: 31/10/2019
+release_date: 
 genres: 2D Action Platformer
 game_engine: Unity and C#
 dev_team: Rahul and Friends
