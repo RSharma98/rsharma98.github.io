@@ -62,7 +62,6 @@ html, body{
 
 #footer img:hover{
     transform: scale(0.9);
-    transform: rotate(-20deg);
 }
 
 #main{
@@ -174,4 +173,136 @@ html, body{
 a{
     color: white;
     text-decoration: none;
+}
+
+.video-overlay{
+    background-color: rgba(0, 0, 0, 0.25);
+    background-image: url(images/social/YouTube_Overlay.png);
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition-duration: 0.2s;
+}
+
+#gallery .picture:hover .video-overlay{
+    background-color: red;
+}
+
+@media only screen and (max-width: 1200px) {
+    .content{
+        width: 1000px;
+    }
+
+    .content #overview{
+        width: 640px;
+    }
+    
+    .content #summary{
+        width: 340px;
+    }
+
+    .project{
+        width: 480px;
+        height: 270px;
+        margin: 10px;
+    }
+
+    #gallery .picture{
+        width: 480px;
+        height: 270px;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .content {
+        width: 800px;
+    }
+
+    .content #overview{
+        width: 490px;
+    }
+    
+    .content #summary{
+        width: 290px;
+    }
+
+    .project{
+        width: 384px;
+        height: 216px;
+        margin: 8px;
+    }
+
+    #gallery .picture{
+        width: 400px;
+        height: 225px;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .content {
+        width: 750px;
+    }
+
+    .content #overview{
+        width: 100%;
+        float: none;
+    }
+    
+    .content #summary{
+        width: 100%;
+        float: none;
+    }
+
+    .project{
+        width: 736px;
+        height: 414px;
+        margin: 7px;
+    }
+
+    #gallery .picture{
+        width: 736px;
+        height: 414px;
+        margin: 7px;
+    }
+}
+
+
+@media only screen and (max-width: 750px) {
+    .content {
+        width: 96%;
+    }
+
+    #header img{
+        padding-top: 7px;
+        height: 46px;
+        transition-duration: 0.2s;
+    }
+
+    .project{
+        width: 100%;
+        height: 300px;
+        margin: 2px 0;
+    }
+
+    #gallery .picture{
+        width: 100%;
+        height: 360px;
+        margin: 2px 0;
+    }
+
+    #footer p{
+        margin-top: 18px;
+        font-size: 18px;
+        display: block;
+        float: none;
+        text-align: center;
+    }
+    
+    #footer img{
+        display: none;
+    }
 }

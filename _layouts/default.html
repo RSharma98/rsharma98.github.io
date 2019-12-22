@@ -9,7 +9,11 @@
         </div>
         <div id="summary">
             <h2>Summary</h2>
-            <p><span>Release Date: </span>{{ page.release_date }}</p>
+            {% if page.release_date != null %}
+                <p><span>Release Date: </span>{{ page.release_date }}</p>
+            {% else %}
+                <p><span>Release Date: </span>Unknown</p>
+            {% endif %}
             <p><span>Platform(s): </span>{{ page.platforms }}</p>
             <p><span>Genre(s): </span>{{ page.genres }}</p>
             <p><span>Engine: </span>{{ page.game_engine }}</p>
@@ -19,8 +23,21 @@
             {% else %}
                 <p><span>Source Code: </span>Unavailable</p>
             {% endif %}
+            {% if page.download != null %}
+                <p><span>Download: </span><a href="{{ page.download }}" target="#blank">Available</a></p>
+            {% else %}
+                <p><span>Download: </span>Unavailable</p>
+            {% endif %}
         </div>
         <div id="gallery">
+            {% for video in page.videos %}
+                <a href="{{ video }}" target="#blank">
+                    <div class="picture" style="background-image: url({{page.images[0]}})">
+                        <div class="video-overlay"></div>
+                    </div>
+                </a>
+            {% endfor %}
+
             {% for image in page.images %}
                 <a href="{{ image }}">
                     <div class="picture" style="background-image: url({{image}})"></div>

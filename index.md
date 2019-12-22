@@ -5,7 +5,7 @@
 layout: home
 title: Home
 ---
-Hello! My name is Rahul and I like to make games. On this website you'll find some of the games I've worked on in the past that I am most proud of, as well as some of my current projects. Click on an image for more details about a game and feel free to get in touch if you'd like more information or to talk about a potential opportunity. 
+Hello! My name is Rahul and I'm a games developer/student based in London, United Kingdom. I am deeply passionate about game development and love the process of making games, especially programming them! I've worked on many games in the past using various engines and languages, and on this website you'll find some of the games I am most proud of. Please do get in touch via the email address in the footer if you'd like more information or to discuss a potential opportunity.
 
 <div id="project-showcase">
     {% for game in site.games %}
