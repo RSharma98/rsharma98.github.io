@@ -15,6 +15,13 @@ images:
 videos:
     - https://www.youtube.com/watch?v=i1I3PIA6yIo
 layout: default
+filters:
+    - Unity
+    - Team Project
+    - University
+    - Gamejam
+    - Playable
+    - Source Code
 ---
 Operation SSO is a game I designed in a team as part of Global Game Jam 2020, during which I worked with a team of three others from my Master's course. The theme of the game jam was 'repair', and after countless ideas and simple prototypes that didn't work the team decided to make a game where you control an astronaut who has to close off black holes to repair the fabric of space. 
 <br><br>

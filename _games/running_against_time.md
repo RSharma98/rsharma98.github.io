@@ -15,6 +15,11 @@ images:
 videos:
     - https://youtu.be/YddvXg3hUeA
 layout: default
+filters:
+    - Unity
+    - Gamejam
+    - Playable
+    - Source Code
 ---
 Running Against Time was a 2D Platformer designed for the Ludum Dare 44 game jam, although I missed the submission by a few hours I was still proud of the game and wanted to release the game regardless. The theme of the game jam was "your life is currency" and therefore I decided to approach the game with a constraint that fitted this requirement. Although I quickly prototyped a ideas around this theme my favourite idea revolved around the game having a time constraint, where the clock would constantly be counting down and the player would need to collect gems in order to refill the timer.
 <br><br>
