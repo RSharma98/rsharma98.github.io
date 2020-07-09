@@ -16,6 +16,12 @@ images:
 videos:
     - https://www.twitch.tv/videos/488403925
 layout: default
+filters:
+    - Unity
+    - Team Project
+    - Gamejam
+    - Playable
+    - Source Code
 ---
 Untitled Brain Game is a simple 3D game I made as part of the Journo Dev Swap held by Ukie. The Journo Dev Swap was a game jam held by Ukie in partnership with Alzheimer's Research UK to raise awareness for the cause. Additionally, a big focus of the game jam was having journalists and developers swap places, resulting in journalists working on games with student developers, whereas the experienced developers would be writing articles about the game jam. During this game jam I worked with Laura Kate Dale and you can read her overview of the event <a href="https://laurakbuzz.com/2019/09/30/i-swapped-places-with-a-game-dev-for-17-hours-heres-what-happened" target="#blank">here</a>.
 <br><br>
