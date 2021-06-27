@@ -4,7 +4,7 @@ release_date: 30/04/2019
 genres: 2D Platformer
 game_engine: Unity and C#
 dev_team: Independent
-source_code: https://github.com/RSharma98/Running-Against-Time
+source_code: https://gitlab.com/Rahulio2D/running-against-time
 download: https://drive.google.com/file/d/1uNDgNhBaeFnRJSsTeDax8lq1KZin6p4I/view?usp=sharing
 platforms: PC and Mac
 images: 
