@@ -5,7 +5,25 @@
 layout: home
 title: Home
 ---
-Hello! My name is Rahul and I'm a software developer based in London, United Kingdom. I am deeply passionate about game development and love the process of making games, with a keen interest in programming and game design! I primarily work with the Unity Engine, but I'm currently working on expanding my knowledge by learning some C++ with SDL and OpenGL. On this website you'll find some of the games I'm most proud of, with each containing a short gameplay video, images, a download link and/or source control, and more information about my contributions! :)
+Hi, I'm Rahul! I'm a Software Engineer based in London, United Kingdom. I specialise in backend development with languages such as Ruby on Rails, TypeScript, Java, Python, and more. On this website you'll find some of the apps and videogames I have developed in my spare time.
+
+# Applications
+
+<div id="project-showcase">
+    {% for app in site.apps %}
+        <a href="{{ app.url }}">
+            <div class="project" style="background-image: url({{ app.images[0] }})">
+                <div class="project-overlay">
+                    {% for language in app.languages %}
+                        <p class="project-language">{{ app.languages[forloop.index0] }}</p>
+                    {% endfor %}
+                </div>
+            </div>
+        </a>
+    {% endfor %}
+</div>
+
+# Games
 
 <div id="project-showcase">
     {% for game in site.games %}
