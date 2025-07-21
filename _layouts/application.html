@@ -1,0 +1,43 @@
+{% include head.html %}
+{% include header.html %}
+<div id="main">
+    <div class="content">
+        <div id="title"><h1>{{ page.title }}</h1></div>
+        <div id="overview">
+            <h2>Overview</h2>
+            <p>{{ content }}</p>
+        </div>
+        <div id="summary">
+            <h2>Summary</h2>
+            <p><span>Status: </span>{{ page.status }}</p>
+            <p><span>Platform(s): </span>{{ page.platforms }}</p>
+            <p><span>Languages(s): </span>{{ page.languages | join: ", " }}</p>
+            {% if page.source_code != null %}
+                <p><span>Source Code: </span><a href="{{ page.source_code }}" target="#blank">Available</a></p>
+            {% else %}
+                <p><span>Source Code: </span>Unavailable</p>
+            {% endif %}
+            {% if page.download != null %}
+                <p><span>Download: </span><a href="{{ page.download }}" target="#blank">Available</a></p>
+            {% else %}
+                <p><span>Download: </span>Unavailable</p>
+            {% endif %}
+        </div>
+        <div id="gallery">
+            {% for video in page.videos %}
+                <a href="{{ video }}" target="#blank">
+                    <div class="picture" style="background-image: url({{page.images[0]}})">
+                        <div class="video-overlay"></div>
+                    </div>
+                </a>
+            {% endfor %}
+
+            {% for image in page.images %}
+                <a href="{{ image }}">
+                    <div class="picture" style="background-image: url({{image}})"></div>
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% include footer.html %}
